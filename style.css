@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --fontColor: #e4e3e3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    max-width: 100%;
+    min-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: center url("/imagens/montain.jpg");
+}
+
+.container{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    width: 500px;
+    padding: 40px;
+    border-radius: 5px;
+    color: var(--fontColor);
+    background-color: #303134;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+text-align: center;
+}
+span{
+    color: #9e5bdd;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 5px ;
+    background-color: #9e5bdd;
+    color: var(--fontColor);
+    font-family: 'Inter', sans-serif;
+}
+button:hover{
+    background-color: #9a59d6c5;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    border: solid #9a59d6b4;
+    height: 30px;
+    color: white;
+}
+
+.apagar{
+    width: 60px;
+    padding: 3px;
+    color: white;
+}
